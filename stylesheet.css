@@ -31,11 +31,16 @@ img {
     transition:transform 0.50s ease;
 }
 
+
 img:hover {
-    -webkit-transform:scale(.9); /* or some other value */
-    transform:scale(1.5);
+    -webkit-transform:scale(1.0); /* or some other value */
+    transform:scale(1.1);
 }
+.image .caption { font-size: 80%;
+                  font-family: Verdana, Arial, sans-serif;
+                  text-align: center; }
 <style>
+
 
 * {
     box-sizing: border-box;
