@@ -1,5 +1,5 @@
 body {
-	background: radial-gradient(black, #383535);
+	background: radial-gradient(black, #525359);
 }
 h1{
 	background-color: #525354; 
@@ -38,3 +38,4 @@ a:active{
     padding: 10px;
 }
 </style>
+<style>
