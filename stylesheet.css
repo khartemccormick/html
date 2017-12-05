@@ -27,7 +27,16 @@ a:focus{
 a:active{
   color:black;
 }
+img {
+    transition:transform 0.50s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(.9); /* or some other value */
+    transform:scale(1.5);
+}
 <style>
+
 * {
     box-sizing: border-box;
 }
@@ -35,6 +44,7 @@ a:active{
 .column {
     float: right;
     width: 25%;
+    height: 5;
     padding: 10px;
 }
 </style>
