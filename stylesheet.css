@@ -47,10 +47,14 @@ img:hover {
 }
 /* Create four equal columns that floats next to each other */
 .column {
-    float: right;
+    float: left;
     width: 25%;
-    height: 5;
-    padding: 10px;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
 </style>
 <style>
